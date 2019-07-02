@@ -5,8 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:id="@+id/tv_number_id"
+        android:inputType="number"
+        android:background="@color/colorGrey"
+        android:textColor="@color/colorBlack"
+        />
 
- <Button
+
+    <Button
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:id="@+id/bt_cancel_id"
@@ -56,7 +65,8 @@
        android:layout_marginStart="20dp"
        android:layout_marginTop="25dp"
        android:onClick="sevenMethod"
-       android:layout_marginLeft="20dp" />
+       android:layout_marginLeft="20dp"
+       android:background="@color/colorBlue"/>
 
 
 
@@ -128,7 +138,8 @@
         android:layout_marginStart="190dp"
         android:layout_marginTop="25dp"
         android:onClick="sixMethod"
-        android:layout_marginLeft="190dp" />
+        android:layout_marginLeft="190dp"
+        android:background="@color/colorBlue"/>
 
    <Button
        android:layout_width="wrap_content"
@@ -183,7 +194,8 @@
        android:layout_marginStart="275dp"
        android:layout_marginTop="25dp"
        android:onClick="equalMethod"
-       android:paddingVertical="57dp"
+       android:paddingVertical="55dp"
+       android:background="@color/colorOrange"
        />
 
    <Button
@@ -198,6 +210,8 @@
        android:paddingRight="130dp"
        android:textSize="30dp"
        android:paddingBottom="10dp"
+       android:background="@color/colorBlue"
+
        />
 
    <Button
@@ -210,7 +224,7 @@
        android:layout_marginTop="25dp"
        android:onClick="pointMethod"
        android:textSize="20dp"
-       android:paddingBottom="25dp"
+       android:paddingBottom="24dp"
 
        />
 
